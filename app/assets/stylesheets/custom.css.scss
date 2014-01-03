@@ -20,10 +20,6 @@ section {
 	overflow: auto;
 }
 
-textarea {
-	resize: vertical;
-}
-
 .center {
 	text-align: center;
 	h1 {
@@ -148,10 +144,10 @@ aside {
 /* forms */
 
 input, textarea, select, .uneditable-input {
+	@include box_sizing;
 	border: 1px solid #bbb;
 	width: 100%;
 	margin-bottom: 15px;
-	@include box_sizing;
 }
 
 input {
