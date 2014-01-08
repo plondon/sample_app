@@ -144,9 +144,9 @@ aside {
 /* forms */
 
 input, textarea, select, .uneditable-input {
-	/*@include box_sizing;*/
+	@include box_sizing;
 	border: 1px solid #bbb;
-	width: 100% !important;
+	width: 100%;
 	margin-bottom: 15px;
 }
 
